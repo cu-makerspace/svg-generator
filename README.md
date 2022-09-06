@@ -17,14 +17,15 @@ python ./gen.py
 
 Start with an input CSV and a template. The first row of the input CSV must be a 'variable name', i.e. a string to be replaced in the template with that column’s data. See CSV and template examples below.
 
-| ![](/blob/docs/csv-example.png)     | ![](/blob/docs/template-example.png) |
-| ----------------------------------- | ------------------------------------ |
-| Example CSV file                    | Corresponding template file          |
+| Example CSV file                    | Corresponding template file        |
+| ----------------------------------- | ---------------------------------- |
+| ![alt](/../docs/csv-example.png)    | ![](/../docs/template-example.png) |
 
 The template will be replaced with the text in the column of the text to replace. For example:
 
-| ![](/blob/docs/output-example-1.png) | ![](/blob/docs/output-example-5.png) |
-| ![](/blob/docs/output-example-3.png) | ![](/blob/docs/output-example-4.png) |
+| ![](/../docs/output-example-1.png) | ![](/../docs/output-example-5.png) |
+| ---------------------------------- | ---------------------------------- |
+| ![](/../docs/output-example-3.png) | ![](/../docs/output-example-4.png) |
 
 # Handy Tips
 - Make sure the text to be replaced is aligned/justified correctly (the `$FIRSTNAME` example above had the text object formatted with justification to the center)
